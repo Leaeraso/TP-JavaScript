@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/main.js"></script>
+
+    <p class="parrafo">Este es el primer parrafo</p>
+    <p class="parrafo">Este es el segundo parrafo</p>
+    <p class="parrafo">Este es el tercer parrafo</p>
+
+    <button id="btn-p">Cambiar a color azul</button>
+
+    <h2>Formulario con alerta</h2>
+
+    <form id="my-form">
+      <label for="text">Ingresa un texto:</label>
+      <input type="text" id="text" name="text" required />
+      <button type="button" id="btn-alert">Mostar alert</button>
+    </form>
+
+    <h2>Lista de elementos</h2>
+
+    <ul>
+      <li class="element">Elemento 1</li>
+      <li class="element">Elemento 2</li>
+      <li class="element">Elemento 3</li>
+      <li class="element">Elemento 4</li>
+    </ul>
+  </body>
+
+  <h2>Campo de texto y botones</h2>
+  <form>
+    <input type="text" id="text-camp" name="text" required />
+    <button type="button" id="btn-disabled">Desabilitar campo</button>
+    <button type="button" id="btn-enabled">Habilitar campo</button>
+  </form>
+
+  <h2>Local Storage</h2>
+
+  <label for="email">Correo electronico:</label>
+  <input type="email" name="email" id="email" />
+  <button type="button" id="btn-add">Guardar correo</button>
+
+  <p>Correo guardado:<span id="span"></span></p>
+  <button type="button" id="btn-delete">Eliminar correo guardado</button>
+</html>
